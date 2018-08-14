@@ -6,7 +6,7 @@ import MenuItem from "@material-ui/core/MenuItem"
 import Button from "@material-ui/core/Button"
 import DatePicker from "material-ui-pickers/DatePicker"
 import TimePicker from "material-ui-pickers/TimePicker"
-import 'moment/locale/es'
+
 
 export default class Form extends Component{
     render(){
