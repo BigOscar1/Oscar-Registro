@@ -1,0 +1,11 @@
+#body{
+    background-image: url(./imagenes/fon.jpg);
+    background-repeat: no-repeat;
+    /* que abarque todo el ancho cover*/
+    /* que abarque todo el ancho y alto contain*/
+    background-size: cover;
+    /* para que la imagen no se mueva con el scroll */
+    background-attachment: fixed; 
+    /* x,y */
+    background-position: center,center;
+}

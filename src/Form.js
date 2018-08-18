@@ -6,13 +6,23 @@ import MenuItem from "@material-ui/core/MenuItem"
 import Button from "@material-ui/core/Button"
 import DatePicker from "material-ui-pickers/DatePicker"
 import TimePicker from "material-ui-pickers/TimePicker"
+//import Image from './imagenes/fon.jpg';
 
 
 export default class Form extends Component{
     render(){
-        const classes = this.props.classes
+        const classes = this.props.estilos
+        const styles = {      
+            paperContainer: {
+                // backgroundImage: `url(${Image})`,
+                // backgroundSize: 'cover', 
+                // //backgroundPosition: 'center center',
+                // backgroundRepeat: 'no-repeat',
+            },
+        };
+
         return(
-            <Paper className={classes.container}>
+            <Paper style={styles.paperContainer} className={classes.container}>
         <Typography 
         variant="display1" 
         color="secondary"
